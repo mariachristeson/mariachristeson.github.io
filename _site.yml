@@ -1,15 +1,17 @@
-name: "my-website"
+name: "Maria Christeson"
 output_dir: "."
 
 navbar:
-  title: "My Website"
+  title: "Maria Christeson"
   left:
     - text: "Resume"
       href: resume.html
     - text: "Pagetitle"
       href: pagename.html
+    - text: "Blog"
+      href: blog.html
 
 output:
   html_document:
-    theme: default
-    highlight: default
+    theme: leonids
+    highlight: zenburn
