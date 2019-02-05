@@ -6,11 +6,11 @@ navbar:
   left:
     - text: "Resume"
       href: resume.html
-    - text: "Pagetitle"
-      href: pagename.html
+    - text: "Blog"
+      href: blog.html
     
 
 output:
-  html_document:
+  prettydoc::html_pretty:
     theme: leonids
-    highlight: zenburn
+    highlight: github
