@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Hello 20’s</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Maria Christeson</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="resume.html">Resume</a>
+</li>
+<li>
+  <a href="blog.html">Blog</a>
+</li>
+<li>
+  <a href="https://github.com/mariachristeson/mariachristeson.github.io">
+    <span class="fa fa-github fa-lg"></span>
+     
+    
+  </a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/mariachristeson/">
+    <span class="fa fa-linkedin"></span>
+     
+    
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Hello 20’s</h1>
+
+</div>
+
+
+<p>20 trips around the sun.That’s how long I’ve been on this beautiful planet. 20 years, and it is crazy to me to look back on all the things I’ve seen, all the things I’ve felt, all the things I’ve done. I am sure everyone has this moment in their life, where they reflect on their time here. I suppose I just never had that moment, until now. </p>
+<p>I am no long a teenager, even though I have the attitude of a carefree teen. I know that my days of being reckless and wild are slowly drifting away. It blows my mind that throughout this next decade, I’ll graduate college, join the real working world. My friends will be getting married, or starting their families and hopefully I will be too. My younger siblings will be going through their teen years, while my older sibling is walking through his twenties right with me. </p>
+<p>The first decade I don’t remember as much, since most of it was spent crying, learning to talk, walk, read, the normal life functions of a human being. From what I do remember was a lot of heartbreak, but not like the boy heart break. The heartbreak of being a child of divorced parents, from missing my dad a lot. I remember getting my first crush, his name was Micheal, we were elementary sweethearts you could say. I remember when we held hands during reading time in third grade, my heart was racing, and I thought we would get in so much trouble. I remember my brother convincing me to put my bike on the back of a wagon, then going down a hill. It ended poorly. I remember my mom finding her father after almost 28 years. I gained a grandpa that day, a whole bunch of uncles, and I had no idea how much they would affect me. I remember my uncle George making hot dogs for dinner everyday for a year! I still can’t eat them. I remember meeting Steven and Codey, back then they were just some annoying boys, but now I can’t even imagine life without them or their families. I remember I went to an indoor water park for my 10th birthday, that was when my grandma could still drive, and my mom worked day in and day out to support her family so she couldn’t come. </p>
+<p>The second decade though, that’s when it started to get a little wild. I had my first kiss, I told my parents I was going to my friends house but I was really going to the park. I made my first girl best friend, we planned our lives together, she was going to move to Tennessee and I was going to live in North Carolina. We were going to have helicopters to travel faster to each other. Now we don’t even speak. I became the girl obsessed with football, the passion only grows deeper every day. I went through changes, mentally, physically and emotionally, losing over 50 pounds, no longer crying in the changing rooms at stores. I failed tests, and I excelled in things outside the classroom, like how to be a good older sister, or a better listener. I made new friends, girls who are now sisters, who will probably be by my side when I finally say “I do”. I laughed a lot, at myself and my friends. Had my breathe taken away by the beauty of the world, and a simple four word sentence “I love you too”. Experienced loss of four men who helped raise me, all terrible deaths, all too soon. Fell in and out of love with a boy I would have done anything and everything for. Spent many late nights wondering if I would be enough for anyone. Told white lies to my parents. Had dreams that I knew I needed to pursue. The normal teenage experience. </p>
+<p>As stated before I’ve done a lot of things these past two decades. Been a lot of places, met a lot of people, spent a lot of money, ate a lot of food. Two decades and I’ve seen a baby be born, while I’ve seen a life take their last breath. I’ve seen a mother hug her solider after being away from home for 9 months. I’ve seen a girl conquer her fears. I’ve seen hard work and dedication pay off. I’ve seen a girl say yes to spending the rest of her life with her best friend, then turn around to ask me be part of her big day. I watched my mom battle breast cancer, beating it like Tom Brady and his Super Bowl wins. I gained a whole new family, from my best friends, coaches and teammates. I’ve seen my first love fall in love with someone else, then come back to me just to break me again. I’ve seen a mother burying her 16 year old child. I’ve seen someone end their life because things were just too hard. I’ve seen a girl destroy herself for a boy who never had the intentions to love her. I’ve seen a boy standing at the edge with a gun to his head because he lost hope. I’ve seen a mother lose her unborn child. I’ve seen an alcoholic finally admitting he had a problem. I’ve seen a marriage of 20 years come to an end due to lack of faith and compassion. I’ve seen cancer take away the backbone of a family. I’ve seen a face full of black smeared make-up, red puffy eyes glossed over with tears staring back me in the mirror trying to figure out when the pain would end. In just 19 years, I’ve seen endless amount of love, honesty, heartbreak, laughter, and so much more. </p>
+<p>I truly believe that everything a person experiences in these two decades, not only helps mold them. But shows them who they are, giving them a hint of life, a taste of the future. The girl I was these past two decades will change, mold into a new person, but the past, the memories they will always be in the back of my mind. A reminder of where I came from, what my morals are, and even when I think I can’t get through whatever battle I am facing, I’ll remember everything I’ve been through, and remember I can find the strength inside me to get through it again. </p>
+<p>Here is to a new decade, and a new chapter in these beautiful trips around the sun. </p>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

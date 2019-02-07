@@ -1,0 +1,5 @@
+---
+title: "Blog"
+---
+
+<p><a href="hello20blog.html"><left><img src= "hello20.jpg" width=300></left></a></p>
