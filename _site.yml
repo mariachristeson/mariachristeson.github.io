@@ -3,14 +3,19 @@ output_dir: "."
 
 navbar:
   title: "Maria Christeson"
-  left:
+  right:
     - text: "Resume"
       href: resume.html
     - text: "Blog"
       href: blog.html
-    
+    - text: ""
+      icon: fa-github fa-lg
+      href: https://github.com/mariachristeson/mariachristeson.github.io
+    - text: ""
+      icon: fa-linkedin
+      href: https://www.linkedin.com/in/mariachristeson/
 
 output:
-  prettydoc::html_pretty:
-    theme: leonids
-    highlight: github
+  html_document: 
+    theme: cosmo
+    highlight: espresso

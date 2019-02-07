@@ -1,4 +1,21 @@
 ---
-title: "Maria Christeson"
+title: <p style="text-align:center;"> About Me </p>
 ---
 
+<center><img src= "mariasphoto.jpg" width=400 alt="Maria Christeson"></center>
+<h1 style="text-align:center;"> *A Rose & A Thorn* </h1>
+<h4 style="text-align:center;"> *An average girl, in an extraordinary world* </h4>
+<p style="text-align:center;"> **Born in Ohio** </p>
+<p style="text-align:center;"> **Raised in Indiana**</p> 
+<p style="text-align:center;"> **Finding myself in North Carolina**</p> 
+<p style="text-align:center;"> **Daughter**</p>
+<p style="text-align:center;"> **Big Sister**</p>
+<p style="text-align:center;"> **God-Mother**</p>
+<p style="text-align:center;"> **Football Obsessed**</p>
+<p style="text-align:center;"> **Concert Addict**</p>
+<p style="text-align:center;"> **Book Worm**</p>
+<p style="text-align:center;"> **Food Lover**</p>
+<p style="text-align:center;"> **Coffee Drinker**</p>
+<p style="text-align:center;"> **Compassionate Soul**</p>
+<p style="text-align:center;"> **A small town girl** </p>
+<p style="text-align:center;"> **Trying to find herself in this extraordinary world.** </p>
