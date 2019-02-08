@@ -1,5 +1,5 @@
 ---
-title: "Hello 20's"
+title: <p style="color:purple;font-size:40px"><b>Hello 20's </p>
 ---
 20 trips around the sun.That's how long I've been on this beautiful planet. 20 years, and it is crazy to me to look back on all the things I've seen, all the things I've felt, all the things I've done. I am sure everyone has this moment in their life, where they reflect on their time here. I suppose I just never had that moment, until now. 
 
