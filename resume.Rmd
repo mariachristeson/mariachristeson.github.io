@@ -1,12 +1,64 @@
 ---
-title: "Maria Christeson's Resume"
+title: "Resume"
 ---
+<hr>
+
+
 
 <h1 style="text-align:center;"> Maria Christeson </h1>
+<hr> 
+
+
 <h4 style="text-align:left;"> **Education** </h4>
 
-<p style="text-align:left;"> Appalachian State University, Boone, NC </p>
-<p style="text-align:left;"> Bachelor of Science in Business Administration </p> 					            
-<p style="text-align:left;"> Major: Marketing </p>
-<p style="text-align:left;"> Minor: Statistics </p> 
+Appalachian State University, Boone, NC <br>
+Bachelor of Science in Business Administration <br>
+Major: Marketing <br>
+Minor: Statistics </p> 
+<hr> 
+
+
+<h4 style="text-align:left;"> **Work Experience** </h4> 
+<hr> 
+
+
+<p style="text-align:left;"> **Appalachian State Football** <br>
+July 2016 - Present <br> 
+*Equipment Manager* <br>
+Assist coaches with drills and equipment to use time resourcefully <br>
+Maintained 120 players equipment, uniforms, and lockers to keep everything in order <br>
+Inspect game day attire, and equipment to ensure safety of players <br>
+Instruct new managers on task to do, to use time effectively <br>
+Organize locker room daily to keep it uncluttered </p> 
+<hr>
+
+
+<p style="text-align:left;"> **American Eagle, Sterling, VA / Blowing Rock,NC** <br>
+May 2018 – Present <br>
+*Sale Associate / Staff Supervisor* <br> 
+Interacted with customers daily for a friendly connection <br> 
+Keep floor set stocked, folded and neat <br> 
+Foresaw other employees to ensure each task is done correctly </p> 
+<hr>
+
+<p style="text-align:left;"> **Pizza King, Auburn, IN** <br> 
+February 2015 - August 2017 <br> 
+*Waitress* <br>
+Provided friendly service daily to customers for an enjoyable meal <br> 
+Addressed customers over the phone and at the counter for non-dine in orders <br> 
+Prepared food for the next day to make the opening servers task easier <br> 
+Cleaned daily to allow for a tidy restaurant experience <br> </p> 
+<hr>
+
+<h4 style="text-align:left;"> **Involvement** </h4>
+<hr> 
+
+
+<p style="text-align:left;"> **Appalachian State Marketing** <br>
+August 2018 - Present <br>
+*Sports Marketing Intern* <br>
+Assist with weekly game operations for all colleague sports <br>
+Communicate with broadcast, band, cheer and announcer throughout the game <br> 
+Interact with fans on activities during game time </p> 
+<hr> 
 
