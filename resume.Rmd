@@ -5,7 +5,7 @@ title: "Resume"
 
 
 
-<h1 style="text-align:center;"> Maria Christeson </h1>
+<h1 style="text-align:center;font-size:50px">Maria Christeson</h1>
 <hr> 
 
 
