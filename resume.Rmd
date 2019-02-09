@@ -3,7 +3,8 @@ title: "Resume"
 ---
 <hr>
 
-
+<html>
+<body style="background-color:seashell;">
 
 <h1 style="text-align:center;font-size:50px">Maria Christeson</h1>
 <hr> 
@@ -61,4 +62,7 @@ Assist with weekly game operations for all colleague sports <br>
 Communicate with broadcast, band, cheer and announcer throughout the game <br> 
 Interact with fans on activities during game time </p> 
 <hr> 
+
+</body>
+</html>
 
