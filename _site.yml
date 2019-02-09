@@ -14,8 +14,7 @@ navbar:
     - text: ""
       icon: fa-linkedin
       href: https://www.linkedin.com/in/mariachristeson/
-
+      
 output:
-  html_document: 
-    theme: cosmo
-    highlight: espresso
+  rmarkdown::html_document:
+    theme: lumen
