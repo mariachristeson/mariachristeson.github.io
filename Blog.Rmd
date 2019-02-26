@@ -6,9 +6,12 @@ title: "Blog"
 
 <p><a href="hello20blog.html"><left><img src= "hello20.jpg" width=350></left></a> </p>
 
-<center><a href="perfectimperfect.html"><left><img src= "original.gif" width=300></left></a></center> 
+<p><a href="iloveyou.html"><left><img src= "loveyou.gif" width=350></left></a> </p>
+
+<p><a href="perfectimperfect.html"><left><img src= "original.gif" width=300></left></a></p> 
 
 <p><a href="love.html"><left><img src= "hurting.gif" width=350></left></a> </p>
+
 
 </body>
 </html>
