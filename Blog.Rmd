@@ -4,7 +4,7 @@ title: "Blog"
 <html>
 <body style="background-color:seashell;">
 
-<p><a href="dearme.html"><left><img src= "dearme.gif" width=350></left></a> </p>
+<p><a href="DearMe.html"><left><img src= "dearme.gif" width=350></left></a> </p>
 
 <p><a href="hello20blog.html"><left><img src= "hello20.jpg" width=350></left></a> </p>
 
