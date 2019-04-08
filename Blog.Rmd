@@ -12,7 +12,7 @@ title: "Blog"
 
 <p><a href="perfectimperfect.html"><left><img src= "original.gif" width=300></left></a></p> 
 
-<p><a href="love.html"><left><img src= "hurting.gif" width=350></left></a> </p>
+<p><a href="love.html"><left><img src= "hurting.gif" width=350></right></a> </p>
 
 
 </body>
